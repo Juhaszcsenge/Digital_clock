@@ -1,31 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digitális óra</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js' defer></script>
+
 </head>
 <body>
-    <h2>Digitális óra</h2>
-    <div class="clock">
-        <div>
-            <span id="hour">00</span>
-            <span class="text">Órák</span>
-        </div>
-        <div>
-            <span id="minutes">00</span>
-            <span class="text">Percek</span>
-        </div>
-        <div>
-            <span id="seconds">00</span>
-            <span class="text">Másodpercek</span>
-        </div>
-        <div>
-            <span id="ampm">AM</span>
-        </div>
+    <button id="osszes">Összes felhasználó</button> <br>
+    <button id="elerhetoseg">elérhetőségek</button> <br>
+    <input  type="number"  id="cm"></button> <br>
+    <button id="barnaSz">Barnaszemüek</button>
+    <div id="display">
+        <ul id="lista"></ul>
+        <table id="tablazat"></table>
+        <p id="oszsulyDisplay"></p><br>
+        <p id="barnaszem"></p>
     </div>
-    <script src="index.js"></script>
 </body>
 </html>
